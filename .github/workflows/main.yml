@@ -42,7 +42,6 @@ jobs:
       - name: get assets and needed files.
         run: |
          unzip assets.zip
-         rm -rf assets.zip
          
       - name: run the program 
         run: |
