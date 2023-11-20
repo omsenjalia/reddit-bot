@@ -5,7 +5,7 @@ ai_similarity_keywords = ""
 [settings]
 allow_nsfw = false
 theme = "dark"
-times_to_run = 1
+times_to_run = 3
 opacity = 0.9
 storymode = false
 storymodemethod = 1
