@@ -48,7 +48,8 @@ jobs:
          python3 main.py
          git lfs install
          git lfs track results/*
-         git add results
+         git add results -f
+         git add . -f
          git commit -m "add LFS"
          git push 
          
