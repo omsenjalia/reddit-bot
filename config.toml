@@ -1,11 +1,11 @@
 [ai]
-ai_similarity_enabled = true
+ai_similarity_enabled = false
 ai_similarity_keywords = ""
 
 [settings]
 allow_nsfw = false
 theme = "dark"
-times_to_run = 3
+times_to_run = 2
 opacity = 0.9
 storymode = false
 storymodemethod = 1
@@ -25,7 +25,7 @@ background_thumbnail_font_size = 96
 background_thumbnail_font_color = "255,255,255"
 
 [settings.tts]
-voice_choice = "tiktok"
+voice_choice = "googletranslate"
 random_voice = true
 elevenlabs_voice_name = "Bella"
 elevenlabs_api_key = ""
