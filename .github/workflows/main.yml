@@ -46,18 +46,17 @@ jobs:
       - name: run the program 
         run: |
          python3 main.py
-         ls -la
-         echo "complete"
-         ls
+         git lfs install
+         git lfs track results/*
+         git add results
+         git commit -m "add LFS"
+         git push 
+         
       - name: pull latest files
         run: git pull -f
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 👍 New reddit videos
-      - name: Discord Webhook Action
-        uses: tsickert/discord-webhook@v5.3.0
-        with:
-          webhook-url: ${{ secrets.WEBHOOK_URL }}
-          filename: results/*
-
-
+          commit_message: update reddit videos
+      - name: results delete 
+        run: |
+         rm -rf results/*
