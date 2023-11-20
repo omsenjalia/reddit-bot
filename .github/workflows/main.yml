@@ -45,7 +45,11 @@ jobs:
          rm -rf assets.zip
          
       - name: run the program 
-        run: python3 main.py
+        run: |
+         python3 main.py
+         ls -la
+         echo "complete"
+         ls
       - name: pull latest files
         run: git pull -f
       - uses: stefanzweifel/git-auto-commit-action@v4
