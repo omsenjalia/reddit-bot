@@ -21,4 +21,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install Packages
-        run: ls-la && echo"$PATH"
+        run: ls -la && echo"$PATH"
