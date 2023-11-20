@@ -51,4 +51,11 @@ jobs:
         run: git pull -f
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 👍 New reddit videos from $(date +%F)
+          commit_message: 👍 New reddit videos
+      - name: Discord Webhook Action
+        uses: tsickert/discord-webhook@v5.3.0
+        with:
+          webhook-url: ${{ secrets.WEBHOOK_URL }}
+          filename: results/*
+
+
