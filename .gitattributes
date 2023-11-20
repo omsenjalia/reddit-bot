@@ -1,1 +1,2 @@
 * text=auto eol=lf
+results/funny+askreddit+gaming+aww+worldnews+todayilearned+movies filter=lfs diff=lfs merge=lfs -text
