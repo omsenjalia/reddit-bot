@@ -47,9 +47,9 @@ password = "1166@omse"
 
 [reddit.thread]
 random = false
-subreddit = "funny+askreddit+gaming+aww+worldnews+todayilearned+movies"
+subreddit = "funny+shortstories+nosleep+aviation+askreddit+gaming+aww+todayilearned+amithejerk"
 post_id = ""
 max_comment_length = 250
-min_comment_length = 10
+min_comment_length = 3
 post_lang = ""
 min_comments = 20
