@@ -35,7 +35,7 @@ tiktok_voice = "en_us_001"
 tiktok_sessionid = "f0d3519dbd5047de815799a5a09677c4"
 python_voice = "1"
 py_voice_num = "2"
-silence_duration = 0.3
+silence_duration = 0.2
 no_emojis = false
 
 [reddit.creds]
@@ -49,7 +49,7 @@ password = "1166@omse"
 random = false
 subreddit = "funny+askreddit+gaming+aww+worldnews+todayilearned+movies"
 post_id = ""
-max_comment_length = 500
-min_comment_length = 1
+max_comment_length = 250
+min_comment_length = 10
 post_lang = ""
 min_comments = 20
